@@ -15,6 +15,7 @@
 		D22A6569251B290F007AE6BA /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22A6568251B290F007AE6BA /* LoginController.swift */; };
 		D22A659B251B31EC007AE6BA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22A659A251B31EC007AE6BA /* Extensions.swift */; };
 		D233526925219CF60056717A /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D233526825219CF60056717A /* HomeController.swift */; };
+		D27FB826252DDA67008F42BD /* LocationInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27FB825252DDA67008F42BD /* LocationInputView.swift */; };
 		D2AA8D07252162F0000E185B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D2AA8D06252162F0000E185B /* GoogleService-Info.plist */; };
 		D2D203D62525F30F00012D01 /* LocationInputActivationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D203D52525F30F00012D01 /* LocationInputActivationView.swift */; };
 		D2FB37D0251F2E3900EFB41E /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FB37CF251F2E3900EFB41E /* SignUpController.swift */; };
@@ -35,6 +36,7 @@
 		D22A6568251B290F007AE6BA /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		D22A659A251B31EC007AE6BA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		D233526825219CF60056717A /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		D27FB825252DDA67008F42BD /* LocationInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInputView.swift; sourceTree = "<group>"; };
 		D2AA8D06252162F0000E185B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D2D203D52525F30F00012D01 /* LocationInputActivationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInputActivationView.swift; sourceTree = "<group>"; };
 		D2FB37CF251F2E3900EFB41E /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 			children = (
 				D2FB37D2251F47D100EFB41E /* AuthButton.swift */,
 				D2D203D52525F30F00012D01 /* LocationInputActivationView.swift */,
+				D27FB825252DDA67008F42BD /* LocationInputView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 				D2FB37D0251F2E3900EFB41E /* SignUpController.swift in Sources */,
 				D2FB37D3251F47D100EFB41E /* AuthButton.swift in Sources */,
 				D233526925219CF60056717A /* HomeController.swift in Sources */,
+				D27FB826252DDA67008F42BD /* LocationInputView.swift in Sources */,
 				D22A654E251B27D1007AE6BA /* AppDelegate.swift in Sources */,
 				D22A6569251B290F007AE6BA /* LoginController.swift in Sources */,
 				D22A6550251B27D1007AE6BA /* SceneDelegate.swift in Sources */,
