@@ -15,7 +15,6 @@ extension UIColor {
     
     static let backgroundColor = UIColor.rgb(red: 25, green: 25, blue: 25)
     static let mainBlueTint = UIColor.rgb(red: 17, green: 154, blue: 237)
-    
 }
 
 extension UIView {
@@ -116,12 +115,15 @@ extension UIView {
     
     // center a view on screen
     func centerX(inView view: UIView) {
+        translatesAutoresizingMaskIntoConstraints = false
         centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
     }
     
     // center any view inside a uiview
     func centerY(inView view: UIView, leftAnchor: NSLayoutXAxisAnchor? = nil,
                  paddingLeft: CGFloat = 0, constant: CGFloat = 0) {
+        
+        translatesAutoresizingMaskIntoConstraints = false
         centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: constant).isActive = true
         
         if let left = leftAnchor {
